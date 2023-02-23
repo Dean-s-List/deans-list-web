@@ -11,7 +11,7 @@ const Joinus = () => {
       The Dean&apos;s List DAO is looking for talented and passionate individuals to become one of us. <Link href="https://crew3.xyz/c/dldao/invite/mOPfotU3wcvr0euHSemO">Join us on Crew3</Link>, complete some quests and show us what you are made of. <br />{" "}
       </div>
 
-        <Link href="https://crew3.xyz/c/dldao/invite/mOPfotU3wcvr0euHSemO_">
+        <Link href="/joindl">
         <button className="group flex h-14 w-max items-center justify-center gap-x-2 rounded bg-white pl-8 pr-7 font-space text-lg font-medium text-black">
           Start your journey today
           <svg

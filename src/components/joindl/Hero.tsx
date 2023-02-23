@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div className="relative flex h-screen w-full flex-col bg-[url('/images/hero.jpg')] bg-cover bg-no-repeat">
+    <div className="relative flex h-screen w-full flex-col bg-[url('/images/hands.jpg')] bg-cover bg-no-repeat">
       <div className="flex h-24 w-full items-center pl-8 pt-5" id="head_logo">
         <div className="flex items-center gap-x-3" id="logo">
           <Link href="/">
@@ -11,15 +11,18 @@ const Hero = () => {
           </Link>
         </div>
       </div>
-      <div className="flex h-full flex-col items-center justify-center">
-        <div className="text-center font-tt text-[7rem] leading-[1] mb-24" id="hero_heading">
-          Get key <br />
-          Feedback from <br />
-          web3 power users
+      <div className="flex h-full flex-col items-center justify-center mb-24">
+        <div className="text-center font-tt text-[4rem] leading-[1] mb-12" id="hero_heading">
+        Interested in joining<br />
+        the Dean&apos;s List DAO? 
         </div>
-        <Link href="https://coinablepay.com/store/deans-list">
+        <div className="lh-spc text-left font-tt text-[2rem] mb-12 ml-24 mr-24">
+        <p>We would be thrilled to have you join our community of power users who provide professional feedback on projects of all types.</p>
+        <p>As a member of the Dean&apos;s List DAO, you&apos;ll have the opportunity to use your skills and expertise to help others improve their work, while also learning from other talented individuals.</p>
+        </div>
+        <Link href="#step1">
         <button className="group flex h-14 w-max items-center justify-center gap-x-2 rounded bg-white pl-8 pr-7 font-space text-lg font-medium text-black">
-          Get Started
+          Become one of us today
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

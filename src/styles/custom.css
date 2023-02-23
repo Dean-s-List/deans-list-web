@@ -1,5 +1,27 @@
 #head_logo { margin-top: 1rem;}
 
+div.lh-spc p {padding-bottom: 1.5rem; }
+
+ul {
+  margin-top: 1.382rem;
+}
+
+li {
+  margin-left: 1.1em;
+  margin-bottom: 1em;
+  list-style-type: circle;
+}
+
+.lun{text-decoration: underline; font-size: 1.5rem;}
+
+.text-med{
+  font-size: 1.619rem;
+}
+
+.dlgrad{color: radial-gradient(circle, rgba(234,150,255,1) 0%, rgba(186,158,255,1) 35%, rgba(186,213,255,1) 70%, rgba(200,240,255,1) 100%); }
+
+mt-4{margin-top: 1.4rem;}
+
 .Footer_dl {
   font-size: 1rem;
   padding: 1.5rem 0 3rem 0;
@@ -14,7 +36,7 @@
       #3a233f,
       transparent 1000px
     );
-  border: 5px solid #141414;
+  border-top: 5px solid #141414;
 }
 .bgc-dark {
   background-color: #1a1f23;
@@ -66,6 +88,7 @@
     font-size: 3.5em;
     width: 80%;
     padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
   }
   #logo {
     width: 70%;
@@ -80,6 +103,23 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
     width: 90%;
   }
+
+  .lh-spc{width: 80%;}
+
+  .lh-spc h2{
+    font-size: 1.618rem;    
+  }
+
+  .lh-spc p{
+    font-size: 1.4rem;    
+  }
+
+  #step1_heading, #step2_heading, #step3_heading, #step4_heading {
+    font-size: 3.69rem;
+    width: 60%;
+    padding-bottom: 1.5rem;
+  }
+
 
   .pt-40 {
     padding-top: 5rem !important;
@@ -125,10 +165,28 @@
   }
 
   #hero_heading {
-    font-size: 2.35em;
+    font-size: 2.8em;
     width: 60%;
     padding-bottom: 1.5rem;
+    margin-top: 1rem;
   }
+
+  .lh-spc{width: 80%;}
+
+  .lh-spc h2{
+    font-size: 1.5rem;    
+  }
+
+  .lh-spc p{
+    font-size: 1.2rem;    
+  }
+
+  #step1_heading, #step2_heading, #step3_heading, #step4_heading {
+    font-size: 2.8rem;
+    width: 60%;
+    padding-bottom: 1.2rem;
+  }
+
   #head_logo {
     padding-left: 1rem;
     padding-top: 0.5rem;
@@ -175,7 +233,7 @@
   #joinus .mt-10 {
     margin-top: 1rem;
   }
-
+  
   #customers .customer:nth-child(n + 3) {
     display: none;
   }
