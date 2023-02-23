@@ -8,7 +8,7 @@ const Step4 = () => {
       <div className="lh-spc text-left font-tt mb-12 ml-48 mr-48 lh-spc text-[2rem]">
         <h2 className="text-[2rem]">Feedback sessions are the flagship service of the DAO and are marketed to other projects across the Web 3 ecosystem.</h2>
         <p className="text-med pt-6">
-        As a member of the DAO, you&amp;ll have the opportunity to review projects and provide feedback.
+        As a member of the DAO, you will have the opportunity to review projects and provide feedback.
         <ul className="list-disc">
         <li>Make sure to be constructive and professional in your feedback</li>
         <li>Seek to add value and offer specific suggestions for improvement</li>

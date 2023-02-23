@@ -14,7 +14,7 @@ const Step3 = () => {
         <ul className="list-disc">
         <li>Participate in discussions on operations, strategy & initiatives of the DAO<br/>
         </li>
-        <li>Propose an agenda item for & participate in weekly DAO calls<br/>
+        <li>Propose an agenda item for and participate in weekly DAO calls<br/>
         </li>
         <li>Contribute to governance by proposing and voting on Realms<br/>
         </li>
