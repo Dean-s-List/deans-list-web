@@ -25,7 +25,7 @@ export const fetchBalances = async ({
   // if user hold at least 1 token, return HolderEnum.Holder
   if (balance.value.length == 1) {
     return HolderEnum.Holder;
-    // if user hold at least 1 token, return HolderEnum.NonHolder
+    // if user holds no token, return HolderEnum.NonHolder
   } else if (balance.value.length == 0) {
     return HolderEnum.NonHolder;
   } else {

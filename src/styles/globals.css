@@ -10,6 +10,14 @@
   font-weight: normal;
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (max-width: 600px) {
   .startbutton {
     padding: 0;
@@ -18,4 +26,10 @@
     height: 3rem;
     width: 9rem;
   }
+}
+
+:root,
+html,
+body {
+  background-color: black;
 }
