@@ -7,19 +7,6 @@ import type { FC } from "react";
 const Hero: FC = () => {
   return (
     <div className="relative flex h-screen w-full flex-col bg-[url('/images/hero.jpg')] bg-cover bg-no-repeat">
-      <div className="flex h-24 w-full items-center pl-8 pt-5" id="head_logo">
-        <div className="flex items-center gap-x-3" id="logo">
-          <Link href="/">
-            <Image
-              src="/images/logo-dl.svg"
-              alt="DEAN'S LIST"
-              className="h-96 w-96"
-              height={384}
-              width={384}
-            />
-          </Link>
-        </div>
-      </div>
       <div className="flex h-full flex-col items-center justify-center">
         <div
           className="mb-24 text-center font-tt text-[7rem] leading-[1]"

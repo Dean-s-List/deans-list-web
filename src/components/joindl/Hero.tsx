@@ -1,25 +1,11 @@
 // Next
 import Link from "next/link";
-import Image from "next/image";
 // Types
 import type { FC } from "react";
 
 const Hero: FC = () => {
   return (
     <div className="relative flex h-screen w-full flex-col bg-[url('/images/hands.jpg')] bg-cover bg-no-repeat">
-      <div className="flex h-24 w-full items-center pl-8 pt-5" id="head_logo">
-        <div className="flex items-center gap-x-3" id="logo">
-          <Link href="/">
-            <Image
-              src="/images/logo-dl.svg"
-              alt="DEAN'S LIST"
-              className="h-96 w-96"
-              width={384}
-              height={384}
-            />
-          </Link>
-        </div>
-      </div>
       <div className="mb-24 flex h-full flex-col items-center justify-center">
         <div
           className="mb-12 text-center font-tt text-[4rem] leading-[1]"

@@ -22,11 +22,13 @@ const tt = localFont({
 });
 // Types
 import type { AppType } from "next/dist/shared/lib/utils";
+import { NavBar } from "@/components/navbar/Navbar";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <main className={`${tt.variable} ${space.variable}`}>
       <Toaster />
+      <NavBar />
       <WalletProvider>
         <Component {...pageProps} />
       </WalletProvider>
