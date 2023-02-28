@@ -2,6 +2,8 @@
 /* eslint-disable @next/next/no-css-tags */
 // Next
 import Head from "next/head";
+// React
+import { useEffect, useState } from "react";
 // Components
 import Hero from "@/components/joindl/Hero";
 import Step1 from "@/components/joindl/Step1";
@@ -9,10 +11,18 @@ import Step2 from "@/components/joindl/Step2";
 import Step3 from "@/components/joindl/Step3";
 import Step4 from "@/components/joindl/Step4";
 import Footer from "@/components/home/Footer";
+// import Spinner from "@/components/spinner/Spinner";
 // Types
 import type { NextPage } from "next";
 
 const Joindl: NextPage = () => {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 1);
+  }, []);
   return (
     <>
       <Head>
@@ -57,12 +67,18 @@ const Joindl: NextPage = () => {
       </Head>
 
       <div className="text-white">
-        <Hero />
-        <Step1 />
-        <Step2 />
-        <Step3 />
-        <Step4 />
-        <Footer />
+        {loading ? (
+          <></>
+        ) : (
+          <>
+            <Hero />
+            <Step1 />
+            <Step2 />
+            <Step3 />
+            <Step4 />
+            <Footer />
+          </>
+        )}
       </div>
     </>
   );

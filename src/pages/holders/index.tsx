@@ -6,7 +6,7 @@ import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { PublicKey } from "@solana/web3.js";
 // Components
 import Layout from "@/components/dashboard/Layout";
-import Spinner from "@/components/spinner/Spinner";
+// import Spinner from "@/components/spinner/Spinner";
 import GatedExample from "@/components/gated-example";
 // Utils
 import { fetchBalances } from "@/utils/holders.utils";
