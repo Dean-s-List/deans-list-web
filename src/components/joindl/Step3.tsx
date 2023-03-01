@@ -19,12 +19,12 @@ const Step3: FC = () => {
           &quot;One Of Us&quot;
           <br />
         </div>
-        <div className="lh-spc lh-spc mb-12 ml-48 mr-48 text-left font-tt text-[2rem]">
-          <h2 className="text-[2rem]">
+        <div className="lh-spc lh-spc mb-12 ml-48 mr-48 text-left font-tt text-[1.5rem]">
+          <h2 className="text-[1.5rem]">
             Upon successful onboarding, you will be assigned the &quot;One of
             Us&quot; role.
           </h2>
-          <p className="text-med pt-6">
+          <p className="text-[1.5rem] pt-6">
             This allows you unfiltered access to the Discord server and you may:
           </p>
           <ul className="list-disc">

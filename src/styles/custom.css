@@ -20,9 +20,10 @@ li {
   text-decoration: underline;
 }
 
-.text-med {
-  font-size: 1.619rem;
+.btn-md {
+  font-size: 1.161rem;
 }
+
 
 .dlgrad {
   color: radial-gradient(
@@ -62,6 +63,8 @@ mt-4 {
 }
 .footer {
   margin: 1em;
+  width: auto;
+  font-size: 1rem;
 }
 .footer a {
   display: inline-flex;
@@ -73,10 +76,12 @@ mt-4 {
 #sollo {
   font-weight: 800;
   font-size: 1.5em;
-  padding-left: 0.5em;
+  padding-top: 0.2em;
+  padding-left: 0.2em;
 }
 .footer p {
-  margin-top: 1em;
+  font-size: 1em;
+  font-weight: 600;
 }
 .footc {
   margin: 0 auto;
@@ -86,9 +91,10 @@ mt-4 {
   text-align: right;
   padding-top: 1.25em;
   margin-right: 2rem;
+  display: inline-block;
 }
 #foot2 a {
-  padding-left: 1em;
+  padding-left: 1.2em;
 }
 .footc {
   padding-left: 2.1em;
@@ -99,12 +105,16 @@ mt-4 {
   .mw50 {
     max-width: 75%;
   }
+
+  .navbar {height: 77.5px !important; background-color: #1f1a2f;}
+
   #hero_heading,
   #join_heading {
-    font-size: 3.5em;
+    font-size: 2.5em;
     width: 80%;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0.25rem;
     padding-top: 1.5rem;
+    margin-top: 2.5rem; 
   }
   #logo {
     width: 70%;
@@ -136,7 +146,7 @@ mt-4 {
   #step2_heading,
   #step3_heading,
   #step4_heading {
-    font-size: 3.69rem;
+    font-size: 3.29rem;
     width: 60%;
     padding-bottom: 1.5rem;
   }
@@ -184,11 +194,13 @@ mt-4 {
     width: 100% !important;
   }
 
+  .navbar {height: 67.5px !important; background-color: #1f1a2f;}
+
   #hero_heading {
     font-size: 2.8em;
     width: 60%;
-    padding-bottom: 1.5rem;
-    margin-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
   }
 
   .lh-spc {

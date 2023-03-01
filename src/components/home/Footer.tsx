@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="Footer_dl relative flex w-full flex-col">
       <div className="grid grid-cols-2 gap-5 font-space">
         <div
-          className="footer flex max-w-xs flex-col justify-between p-5 text-gray-200"
+          className="footer flex flex-col justify-between p-5 text-gray-200"
           id="foot1"
         >
           <Link
@@ -51,8 +51,8 @@ const Footer = () => {
             href="https://twitter.com/deanslistDAO"
           >
             <svg
-              width="16"
-              height="16"
+              width="32"
+              height="32"
               viewBox="0 0 56.693 56.693"
               fill="currentColor"
             >
@@ -65,7 +65,12 @@ const Footer = () => {
             target="_blank"
             href="https://github.com/Deans-List/"
           >
-            <svg width="16" height="16" viewBox="0 0 48 48" fill="currentColor">
+            <svg 
+              width="32" 
+              height="32" 
+              viewBox="0 0 48 48" 
+              fill="currentColor"
+            >
               <path
                 fillRule="evenodd"
                 clipRule="evenodd"

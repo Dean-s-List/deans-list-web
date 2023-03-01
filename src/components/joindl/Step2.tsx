@@ -19,11 +19,11 @@ const Step2: FC = () => {
           find your place to add value
           <br />
         </div>
-        <div className="lh-spc lh-spc mb-12 ml-48 mr-48 text-left font-tt text-[2rem]">
-          <h2 className="text-[2rem]">
+        <div className="lh-spc lh-spc mb-12 ml-48 mr-48 text-left font-tt text-[1.5rem]">
+          <h2 className="text-[1.5rem]">
             We encourage all new members to first introduce themselves
           </h2>
-          <p className="text-med pt-6">
+          <p className="text-[1.5rem] pt-6">
             Start in the #introductions channel and spend some time to see how
             things work.
           </p>
