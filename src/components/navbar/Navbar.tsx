@@ -8,7 +8,7 @@ export const NavBar: FC = () => {
   return (
     <div>
       {/* NavBar / Header */}
-      <div className="navbar fixed z-[999] flex h-[67.5px] flex-row border-white bg-black text-[21px] text-neutral-content shadow-lg md:pb-2">
+      <div className="navbar fixed z-[999] flex h-[87.5px] flex-row border-white text-[21px] text-neutral-content shadow-lg md:pb-3">
         <div className="z-2 navbar-start flex">
           <div className="flex-none lg:hidden">
             <div className="dropdown">
@@ -56,10 +56,10 @@ export const NavBar: FC = () => {
             <Link href="/">
               <Image
                 src="/images/logo-dl.svg"
-                alt="DEAN'S LIST"
-                className="h-40 w-40"
-                height={160}
-                width={160}
+                alt="Dean's List Web3 Feedback Service"
+                className=""
+                height={80}
+                width={180}
               />
             </Link>
           </div>
@@ -76,10 +76,10 @@ export const NavBar: FC = () => {
             <Link href="/">
               <Image
                 src="/images/logo-dl.svg"
-                alt="DEAN'S LIST"
-                className="h-40 w-40"
-                height={160}
-                width={160}
+                alt="Dean's List Web3 Feedback Service"
+                className=""
+                height={80}
+                width={180}
               />
             </Link>
           </div>

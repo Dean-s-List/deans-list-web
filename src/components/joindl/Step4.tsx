@@ -17,12 +17,12 @@ const Step4: FC = () => {
           Feedback and Get Paid
           <br />
         </div>
-        <div className="lh-spc lh-spc mb-12 ml-48 mr-48 text-left font-tt text-[2rem]">
-          <h2 className="text-[2rem]">
+        <div className="lh-spc lh-spc mb-12 ml-48 mr-48 text-left font-tt text-[1.5rem]">
+          <h2 className="text-[1.5rem]">
             Feedback sessions are the flagship service of the DAO and are
             marketed to other projects across the Web 3 ecosystem.
           </h2>
-          <p className="text-med pt-6">
+          <p className="text-[1.5rem] pt-6">
             As a member of the DAO, you will have the opportunity to review
             projects and provide feedback.
           </p>
@@ -34,7 +34,7 @@ const Step4: FC = () => {
               Seek to add value and offer specific suggestions for improvement
             </li>
           </ul>
-          <h3>
+          <h3 className="pt-3">
             We look forward to your contributions in improving the Web3
             Ecosystem, one feedback at a time.
           </h3>

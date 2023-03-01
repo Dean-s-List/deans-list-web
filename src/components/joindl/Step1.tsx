@@ -16,11 +16,11 @@ const Step1: FC = () => {
         >
           Step 1: Join Our Discord <br />
         </div>
-        <div className="lh-spc mb-12 ml-48 mr-48 text-left font-tt text-[2rem]">
-          <h2 className="text-[2rem]">
+        <div className="lh-spc mb-12 ml-48 mr-48 text-left font-tt text-[1.5rem]">
+          <h2 className="text-[1.5rem]">
             The Dean&apos;s List DAO operates and communicates with Discord.
           </h2>
-          <p className="text-med pt-6">
+          <p className="text-[1.5rem] pt-6">
             To join our Discord server, pick from one of the three options
             below:
           </p>
