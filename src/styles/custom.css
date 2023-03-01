@@ -24,6 +24,9 @@ li {
   font-size: 1.161rem;
 }
 
+.vwm{
+  width: 50%;
+}
 
 .dlgrad {
   color: radial-gradient(
