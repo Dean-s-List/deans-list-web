@@ -24,7 +24,7 @@ const Step3: FC = () => {
             Upon successful onboarding, you will be assigned the &quot;One of
             Us&quot; role.
           </h2>
-          <p className="text-[1.5rem] pt-6">
+          <p className="pt-6 text-[1.5rem]">
             This allows you unfiltered access to the Discord server and you may:
           </p>
           <ul className="list-disc">
@@ -43,8 +43,8 @@ const Step3: FC = () => {
             </li>
           </ul>
         </div>
-        <Link href="#step4">
-          <button className="steps group flex h-14 w-max items-center justify-center gap-x-2 rounded bg-white pl-8 pr-7 font-space text-lg font-medium text-black">
+        <Link href="#step4" scroll={false}>
+          <button className="group steps flex h-14 w-max items-center justify-center gap-x-2 rounded bg-white pl-8 pr-7 font-space text-lg font-medium text-black">
             Proceed to Step 4
             <svg
               xmlns="http://www.w3.org/2000/svg"
