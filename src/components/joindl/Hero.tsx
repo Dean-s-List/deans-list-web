@@ -26,7 +26,7 @@ const Hero: FC = () => {
             their work, while also learning from other talented individuals.
           </p>
         </div>
-        <Link href="#step1">
+        <Link href="#step1" scroll={false}>
           <button className="group flex h-14 w-max items-center justify-center gap-x-2 rounded bg-white pl-8 pr-7 font-space text-lg font-medium text-black">
             Become one of us today
             <svg

@@ -23,7 +23,7 @@ const Step2: FC = () => {
           <h2 className="text-[1.5rem]">
             We encourage all new members to first introduce themselves
           </h2>
-          <p className="text-[1.5rem] pt-6">
+          <p className="pt-6 text-[1.5rem]">
             Start in the #introductions channel and spend some time to see how
             things work.
           </p>
@@ -42,8 +42,8 @@ const Step2: FC = () => {
             </li>
           </ul>
         </div>
-        <Link href="#step3">
-          <button className="steps group flex h-14 w-max items-center justify-center gap-x-2 rounded bg-white pl-8 pr-7 font-space text-lg font-medium text-black">
+        <Link href="#step3" scroll={false}>
+          <button className="group steps flex h-14 w-max items-center justify-center gap-x-2 rounded bg-white pl-8 pr-7 font-space text-lg font-medium text-black">
             Proceed to Step 3
             <svg
               xmlns="http://www.w3.org/2000/svg"

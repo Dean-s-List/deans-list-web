@@ -20,7 +20,7 @@ const Step1: FC = () => {
           <h2 className="text-[1.5rem]">
             The Dean&apos;s List DAO operates and communicates with Discord.
           </h2>
-          <p className="text-[1.5rem] pt-6">
+          <p className="pt-6 text-[1.5rem]">
             To join our Discord server, pick from one of the three options
             below:
           </p>
@@ -61,8 +61,8 @@ const Step1: FC = () => {
             </li>
           </ul>
         </div>
-        <Link href="#step2">
-          <button className="steps group flex h-14 w-max items-center justify-center gap-x-2 rounded bg-white pl-8 pr-7 font-space text-lg font-medium text-black">
+        <Link href="#step2" scroll={false}>
+          <button className="group steps flex h-14 w-max items-center justify-center gap-x-2 rounded bg-white pl-8 pr-7 font-space text-lg font-medium text-black">
             Proceed to Step 2
             <svg
               xmlns="http://www.w3.org/2000/svg"
