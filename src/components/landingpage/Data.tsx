@@ -4,9 +4,8 @@ import type { FC } from "react";
 const Step4: FC = () => {
 
     const data = {
-        revenue: 41.411,
-        population: 24,
-        pc: 1708.33
+        revenue: 41411,
+        population: 68
     }
 
   return (
@@ -37,7 +36,7 @@ const Step4: FC = () => {
                 <div className="sm:flex sm:items-start">
                     <div className="text-center sm:mt-0 sm:ml-2 sm:text-left">
                         <h3 className="text-sm leading-6 font-medium text-gray-600">GDP per capita</h3>
-                        <p className="text-3xl font-bold text-black">${data.pc}</p>
+                        <p className="text-3xl font-bold text-black">${Math.round((data.revenue / data.population)*100)/100}</p>
                     </div>
                 </div>
             </div>

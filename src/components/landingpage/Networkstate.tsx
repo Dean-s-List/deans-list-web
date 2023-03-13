@@ -1,13 +1,14 @@
 import type { FC } from "react";
-const Powerpoint: FC = () => {
+
+const Networkstate: FC = () => {
   return (
-    <div
-      className="relative flex h-full w-full mt-56 flex-col"
-      id="step4"
-    >
+    <div className="relative mb-20 flex w-full flex-col" id="step4">
       <div className="flex h-full flex-col items-center justify-center ">
-        <div className="mb-10 text-center font-tt text-[4rem] leading-[1]">
-            The Network State
+        <div
+          className="mb-12 mt-12 text-center font-tt text-[4rem] leading-[1]"
+          id="step4_heading"
+        >
+          The Network State
           <br />
         </div>
         <div className="lh-spc lh-spc mb-12 ml-48 mr-48 text-left font-tt text-[1.5rem]">
@@ -15,9 +16,8 @@ const Powerpoint: FC = () => {
             Feedback sessions are the flagship service of the DAO and are
             marketed to other projects across the Web 3 ecosystem.
           </h2>
-          <p className="text-[1.5rem] pt-6">
-            As a member of the DAO, you will have the opportunity to review
-            projects and provide feedback.
+          <p className="pt-6 text-[1.5rem]">
+          The term “service provider” has become an acronym for exploitation in our day and age. Centralized intermediaries in Web2<br />  continue to dish out unfair treatment to service providers in the form of limited incentives & high participation fees. Divided & conquered, the colonization continues. 
           </p>
           <ul className="list-disc">
             <li>
@@ -32,11 +32,9 @@ const Powerpoint: FC = () => {
             Ecosystem, one feedback at a time.
           </h3>
         </div>
-        <img src="https://lookerstudio.google.com/embed/reporting/700df703-9ea0-499f-b596-707c09c81f2f/page/XcZID" alt="qsdfsf" />
       </div>
     </div>
   );
 };
 
-export default Powerpoint;
-
+export default Networkstate;

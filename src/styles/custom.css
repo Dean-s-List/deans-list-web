@@ -28,6 +28,10 @@ li {
   width: 50%;
 }
 
+iframe{
+  border: none;
+}
+
 .dlgrad {
   color: radial-gradient(
     circle,

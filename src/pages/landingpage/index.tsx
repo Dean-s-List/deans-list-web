@@ -10,8 +10,9 @@ import type { NextPage } from "next";
 
 import Front from "@/components/landingpage/Front";
 import Track from "@/components/landingpage/Track";
-import Test from "@/components/landingpage/Test";
-import Data from "@/components/landingpage/Data"
+import Country from "@/components/landingpage/Country";
+import Data from "@/components/landingpage/Data";
+import Networkstate from "@/components/landingpage/Networkstate";
 
 import Footer from "@/components/home/Footer";
 import { toast } from "react-hot-toast";
@@ -19,6 +20,7 @@ import { toast } from "react-hot-toast";
 const Landingpage: NextPage = () => {
   const [loading, setLoading] = useState(true);
   const [data] = useState([25,50,35,15,94,10]);
+  
   const svgRef = useRef(null);
   useEffect(() => {
     //setting up svg
@@ -81,8 +83,9 @@ const Landingpage: NextPage = () => {
           <>
           <Front/>
           <Track/>
-          <Test/>
+          <Networkstate/>
           <Data/>
+          <Country/>
           <Footer/>
           </>
         )}

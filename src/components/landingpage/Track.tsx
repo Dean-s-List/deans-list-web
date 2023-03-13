@@ -2,7 +2,7 @@ import type { FC } from "react";
 
 const Track: FC = () => {
   return (
-      <div className="grid grid-cols-2 grid-rows-[300px_1fr_100px]  items-center">
+      <div className="grid grid-cols-2 grid-rows-[300px_1fr_100px] mb-20 w-full items-center">
         <div
           className="col-span-2 text-center font-tt text-[4rem] leading-[1]"
           id="hero_heading"
