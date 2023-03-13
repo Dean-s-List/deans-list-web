@@ -8,7 +8,11 @@ const Front: FC = () => {
           className="mb-12 text-center font-tt text-[4rem] leading-[1]"
           id="hero_heading"
         >
-          <img src="images/landingpage/Logo_Light.svg" alt="grizzlylogo" width={1100}/>
+          <img
+            src="images/landingpage/Logo_Light.svg"
+            alt="grizzlylogo"
+            width={1100}
+          />
           The Network State <br /> Dean&apos;s List
         </div>
       </div>

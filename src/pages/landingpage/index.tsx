@@ -2,37 +2,26 @@
 import Head from "next/head";
 // React
 import { useEffect, useRef, useState } from "react";
-
-import {PowerBIEmbed} from 'powerbi-client-react';
-import {models} from 'powerbi-client';
-
 import type { NextPage } from "next";
-
+// Pages
 import Front from "@/components/landingpage/Front";
 import Track from "@/components/landingpage/Track";
 import Country from "@/components/landingpage/Country";
 import Data from "@/components/landingpage/Data";
 import Networkstate from "@/components/landingpage/Networkstate";
-
 import Footer from "@/components/home/Footer";
-import { toast } from "react-hot-toast";
 
 const Landingpage: NextPage = () => {
   const [loading, setLoading] = useState(true);
-  const [data] = useState([25,50,35,15,94,10]);
-  
+  const [data] = useState([25, 50, 35, 15, 94, 10]);
+
   const svgRef = useRef(null);
   useEffect(() => {
-    //setting up svg
-
-
-
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 1);
   }, []);
-
 
   return (
     <>
@@ -81,12 +70,12 @@ const Landingpage: NextPage = () => {
           <></>
         ) : (
           <>
-          <Front/>
-          <Track/>
-          <Networkstate/>
-          <Data/>
-          <Country/>
-          <Footer/>
+            <Front />
+            <Track />
+            <Networkstate />
+            <Data />
+            <Country />
+            <Footer />
           </>
         )}
       </div>

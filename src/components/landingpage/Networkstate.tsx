@@ -17,7 +17,11 @@ const Networkstate: FC = () => {
             marketed to other projects across the Web 3 ecosystem.
           </h2>
           <p className="pt-6 text-[1.5rem]">
-          The term “service provider” has become an acronym for exploitation in our day and age. Centralized intermediaries in Web2<br />  continue to dish out unfair treatment to service providers in the form of limited incentives & high participation fees. Divided & conquered, the colonization continues. 
+            The term “service provider” has become an acronym for exploitation
+            in our day and age. Centralized intermediaries in Web2
+            <br /> continue to dish out unfair treatment to service providers in
+            the form of limited incentives & high participation fees. Divided &
+            conquered, the colonization continues.
           </p>
           <ul className="list-disc">
             <li>
