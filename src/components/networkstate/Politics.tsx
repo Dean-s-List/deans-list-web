@@ -12,7 +12,7 @@ const Politics: FC = () => {
         <br />
       </div>
       <div className="lh-spc lh-spc mb-12 ml-48 mr-48 text-left font-tt text-[1.5rem] w-full">
-        <iframe className="ml-48 mr-20" src="https://app.realms.today/dao/Dean's%20List" width="83%" height="800"></iframe>
+        <iframe className="ml-48 mr-20 rounded-2xl" src="https://app.realms.today/dao/Dean's%20List" width="83%" height="800"></iframe>
       </div>
     </div>
   </div>
