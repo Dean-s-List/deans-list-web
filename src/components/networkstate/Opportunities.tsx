@@ -2,7 +2,7 @@ import type { FC } from "react";
 
 const Opportunities: FC = () => {
   return (
-    <div className="mt-10 flex flex-wrap justify-center">
+    <div className="mt-40 mb-40 flex flex-wrap justify-center">
       <div className="max-w-md p-4">
         <div className="flex h-full flex-col rounded-lg bg-gray-100 p-8">
           <div className="mb-3 flex items-center">
