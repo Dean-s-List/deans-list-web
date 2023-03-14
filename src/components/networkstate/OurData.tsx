@@ -8,8 +8,8 @@ const OurData: FC = () => {
   };
 
   return (
-    <div className="relative mb-20 flex w-full flex-col">
-      <div className="ml-48 mr-48 sm:flex sm:space-x-4">
+    <div className="relative mb-20 flex w-full flex-col" id="ourdata">
+      <div className="datawrap ml-48 mr-48 sm:flex sm:space-x-4">
         <div className="mb-4 inline-block w-full transform overflow-hidden rounded-lg bgclay text-left align-bottom shadow transition-all sm:my-8 sm:w-1/3">
           <div className="bg-gray-5 p-5">
             <div className="sm:flex sm:items-start">

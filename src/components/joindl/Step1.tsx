@@ -26,16 +26,15 @@ const Step1: FC = () => {
           </p>
           <ul className="list-disc">
             <li>
-              Complete the onboarding missions and quests and work your way up
-              to Level 5 on{" "}
+              Purchase one of our NFTs on the {" "}
               <Link
                 rel="noopener noreferrer"
                 target="_blank"
                 className="lun"
-                href="https://crew3.xyz/c/dldao/questboard"
+                href="https://www.tensor.trade/trade/deanslist"
               >
-                Crew3
-              </Link>
+                secondary market
+              </Link> or try your luck at one of our auctions.
             </li>
             <li>
               Purchase at least one $DEAN Token by swapping $GRAPE on{" "}
