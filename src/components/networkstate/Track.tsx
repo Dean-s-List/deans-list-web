@@ -7,7 +7,7 @@ const Track: FC = () => {
         className="clay col-span-2 text-center font-tt text-[4rem] leading-[1]"
         id="network_heading"
       >
-        Track
+        DAO Track
       </div>
       <div className="lh-spc lh-spc mb-12 ml-48 text-left font-tt text-[1.5rem]">
         <p className="mb-10 text-[1.5rem]">
@@ -17,10 +17,9 @@ const Track: FC = () => {
         </p>
 
         <p className="pt-6 text-[1.5rem]">
-          We are leveraging the power of governance protocols and DAO tooling on
-          the Solana network in order to create layers of collaboration within a
-          DAO structure. This allows us to plan, create and sell services to the
-          wider Web3 ecosystem & beyond.
+          We are leveraging the power of the Solana ecosystem to build the future 
+          of work under a decentralized alternative that is fair, transparent, 
+          autonomous & empowering.
         </p>
       </div>
       <div className="justify-self-center">

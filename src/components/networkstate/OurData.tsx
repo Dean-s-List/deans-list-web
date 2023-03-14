@@ -15,7 +15,7 @@ const OurData: FC = () => {
             <div className="sm:flex sm:items-start">
               <div className="text-center sm:mt-0 sm:ml-2 sm:text-left">
                 <h3 className="font-medium leading-6 text-gray-800">
-                  Total Revenue
+                  Total GDP
                 </h3>
                 <p className="text-3xl font-bold text-black">${data.revenue}</p>
               </div>
