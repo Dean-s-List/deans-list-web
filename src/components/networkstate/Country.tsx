@@ -43,7 +43,7 @@ const Country: FC = () => {
           Earnings by Country
           <br />
         </div>
-        <div className="lh-spc lh-spc mt-12 mb-12 ml-48 mr-48 text-left font-tt text-[1.5rem]">
+        <div className="lh-spc lh-spc mt-12 mb-12 ml-48 mr-48 text-left font-tt text-[1.5rem]" id="earn_chart">
           <Chart
           chartType="GeoChart"
           data={data}

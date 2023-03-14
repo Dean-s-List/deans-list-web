@@ -2,15 +2,15 @@ import type { FC } from "react";
 
 const Track: FC = () => {
   return (
-    <div className="mb-20 grid w-full grid-cols-2 grid-rows-[300px_1fr_100px] items-center" id="network">
+    <div className="mb-20 grid w-full grid-cols-2 grid-rows-[200px_1fr_100px] items-center" id="network">
       <div
         className="clay col-span-2 text-center font-tt text-[4rem] leading-[1]"
         id="network_heading"
       >
         DAO Track
       </div>
-      <div className="lh-spc lh-spc mb-12 ml-48 text-left font-tt text-[1.5rem]">
-        <p className="mb-10 text-[1.5rem]">
+      <div className="nwrk lh-spc lh-spc mb-12 ml-48 mr-24 text-left font-tt text-[1.5rem]">
+        <p className="pt-6 text-[1.5rem]">
         Dean&apos;s list DAO is building a Digital Network State with a vision to provide 
         prosperity &amp; opportunity to its citizens while building templates for the 
         future of decentralized work &amp; collaboration.

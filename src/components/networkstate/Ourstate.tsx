@@ -15,7 +15,7 @@ const Ourstate: FC = () => {
           <p className="pt-6 text-[1.5rem]">
             The term “service provider” has become an synonym for exploitation 
             in our day and age. Centralized intermediaries in Web2
-            <br /> continue to dish out unfair treatment to service providers in 
+            continue to dish out unfair treatment to service providers in 
             the form of limited incentives & high participation fees. 
           </p>
           <p className="pt-6 text-[1.5rem]">
@@ -24,11 +24,11 @@ const Ourstate: FC = () => {
             of service providers. 
           </p>
 
-          <h3 className="pt-3">
+          <p className="pt-6 text-[1.5rem]">
           We aim to change this by not only monetizing feedback as a service for our 
           citizens but also providing a template for other potential digital network states 
           to follow our example for other services.
-          </h3>
+          </p>
         </div>
       </div>
     </div>
