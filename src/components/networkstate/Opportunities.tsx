@@ -6,7 +6,7 @@ const Opportunities: FC = () => {
       <div className="max-w-md p-4">
         <div className="flex h-full flex-col rounded-lg bg-gray-100 p-8">
           <div className="mb-3 flex items-center">
-            <div className="mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-indigo-500 text-black">
+            <div className="mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-fuchsia-500 text-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -54,7 +54,7 @@ const Opportunities: FC = () => {
       <div className="max-w-md p-4">
         <div className="flex h-full flex-col rounded-lg bg-gray-100 p-8">
           <div className="mb-3 flex items-center">
-            <div className="mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-indigo-500 text-black">
+            <div className="mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-fuchsia-500 text-black">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -102,7 +102,7 @@ const Opportunities: FC = () => {
       <div className="max-w-md p-4">
         <div className="flex h-full flex-col rounded-lg bg-gray-100 p-8">
           <div className="mb-3 flex items-center">
-            <div className="mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-indigo-500 text-black">
+            <div className="mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-fuchsia-500 text-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
