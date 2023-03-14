@@ -7,7 +7,7 @@ export const data = [
   ["Greece", 4657.38],
   ["Pakistan", 1721.17],
   ["Canda", 1859],
-  ["USA", 1214.51],
+  ["United States", 1214.51],
   ["Germany", 533.35],
   ["Canada", 1859],
   ["Germany", 533.35],
