@@ -3,13 +3,11 @@ import { Chart } from "react-google-charts";
 
 export const data = [
   ["Country", "Earned ($)"],
-  ["Nigeria", 8184.54],
+  ["Nigeria", 8212.04],
   ["Greece", 4657.38],
   ["Pakistan", 1721.17],
-  ["Canda", 1859],
-  ["United States", 1214.51],
-  ["Germany", 533.35],
-  ["Canada", 1859],
+  ["Canada", 1420.36],
+  ["United States", 1859],
   ["Germany", 533.35],
   ["Guatemala", 22],
   ["Slovenia", 9],
@@ -17,7 +15,7 @@ export const data = [
   ["Belgium", 83],
   ["India", 11],
   ["Vietnam", 22.1],
-  ["UK", 5.51],
+  ["United Kingdom", 5.51],
   ["Brazil", 1489],
   ["Australia", 235.46],
 ];

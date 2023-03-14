@@ -13,7 +13,7 @@ const Ourstate: FC = () => {
         </div>
         <div className="lh-spc lh-spc mb-12 ml-48 mr-48 text-left font-tt text-[1.5rem]">
           <p className="pt-6 text-[1.5rem]">
-            The term “service provider” has become an acronym for exploitation 
+            The term “service provider” has become an synonym for exploitation 
             in our day and age. Centralized intermediaries in Web2
             <br /> continue to dish out unfair treatment to service providers in 
             the form of limited incentives & high participation fees. 
