@@ -9,6 +9,8 @@ import Track from "@/components/networkstate/Track";
 import Country from "@/components/networkstate/Country";
 import OurData from "@/components/networkstate/OurData";
 import Ourstate from "@/components/networkstate/Ourstate";
+import Opportunities from "@/components/networkstate/Opportunities";
+import Politics from "@/components/networkstate/Politics";
 import Footer from "@/components/home/Footer";
 
 const Networkstate: NextPage = () => {
@@ -75,6 +77,8 @@ const Networkstate: NextPage = () => {
             <Ourstate />
             <OurData />
             <Country />
+            <Opportunities/>
+            <Politics/>
             <Footer />
           </>
         )}
