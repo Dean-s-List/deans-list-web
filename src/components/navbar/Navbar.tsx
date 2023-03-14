@@ -49,6 +49,13 @@ export const NavBar: FC = () => {
                     </button>
                   </Link>
                 </li>
+                <li className="list-none">
+                  <Link href="/networkstate">
+                    <button className="btn-ghost rounded-btn btn-md btn">
+                      Network State
+                    </button>
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -94,6 +101,11 @@ export const NavBar: FC = () => {
           <Link href="/joindl" className="hidden lg:flex">
             <button className="btn-ghost rounded-btn btn-md btn">
               JOIN US
+            </button>
+          </Link>
+          <Link href="/networkstate" className="hidden lg:flex">
+            <button className="btn-ghost rounded-btn btn-md btn">
+              NETWORK STATE
             </button>
           </Link>
         </div>
