@@ -4,14 +4,14 @@ import Head from "next/head";
 import { useEffect, useRef, useState } from "react";
 import type { NextPage } from "next";
 // Pages
-import Front from "@/components/landingpage/Front";
-import Track from "@/components/landingpage/Track";
-import Country from "@/components/landingpage/Country";
-import Data from "@/components/landingpage/Data";
-import Networkstate from "@/components/landingpage/Networkstate";
+import Front from "@/components/networkstate/Front";
+import Track from "@/components/networkstate/Track";
+import Country from "@/components/networkstate/Country";
+import OurData from "@/components/networkstate/OurData";
+import Ourstate from "@/components/networkstate/Ourstate";
 import Footer from "@/components/home/Footer";
 
-const Landingpage: NextPage = () => {
+const Networkstate: NextPage = () => {
   const [loading, setLoading] = useState(true);
   const [data] = useState([25, 50, 35, 15, 94, 10]);
 
@@ -26,7 +26,7 @@ const Landingpage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Become One of Us | Dean&apos;s List</title>
+        <title>Network State on Solana | Dean&apos;s List</title>
 
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
@@ -41,28 +41,28 @@ const Landingpage: NextPage = () => {
         />
         <meta
           name="keywords"
-          content="web3 feedback, solana power users, crypto project feedback, help with crypto project, better feedback solutions"
+          content="network state, solana network state, solana power users, better feedback solutions"
         />
         <meta name="author" content="Dean's List DAO" />
         <meta
           name="description"
-          content="Learn how to join a Service DAO for Web3 power users making every project we touch better."
+          content="Learn about the Dean's List Network State on Solana. A DAO for Web3 power users."
         />
         <meta
           property="og:description"
-          content="Learn how to join a Service DAO for Web3 power users making every project we touch better."
+          content="Learn about the Dean's List Network State on Solana. A DAO for Web3 power users."
         />
-        <meta property="og:title" content="Dean's List - Become One of Us" />
+        <meta property="og:title" content="Dean's List - Network State on Solana" />
         <meta property="og:image" content="/images/logo.png" />
-        <meta property="og:url" content="" />
+        <meta property="og:url" content="/networkstate" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@deanslistDAO" />
-        <meta name="twitter:title" content="Dean's List - Become One of Us" />
+        <meta name="twitter:title" content="Dean's List - Network State on Solana" />
         <meta name="twitter:image" content="/images/logo.png" />
         <meta name="twitter:site" content="@deanslistDAO" />
         <meta
           name="twitter:description"
-          content="Learn how to join a Service DAO for Web3 power users making every project we touch better."
+          content="Learn about the Dean's List Network State on Solana. A DAO for Web3 power users."
         />
       </Head>
       <div className="text-white">
@@ -72,8 +72,8 @@ const Landingpage: NextPage = () => {
           <>
             <Front />
             <Track />
-            <Networkstate />
-            <Data />
+            <Ourstate />
+            <OurData />
             <Country />
             <Footer />
           </>
@@ -83,4 +83,4 @@ const Landingpage: NextPage = () => {
   );
 };
 
-export default Landingpage;
+export default Networkstate;

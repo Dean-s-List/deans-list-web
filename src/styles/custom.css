@@ -42,6 +42,14 @@ iframe{
   );
 }
 
+.clay{
+  color: #dad5c3;
+}
+
+.bgclay{
+  background-color: #dad5c3;
+}
+
 mt-4 {
   margin-top: 1.4rem;
 }
@@ -158,6 +166,10 @@ mt-4 {
     padding-bottom: 1.5rem;
   }
 
+  #network .grid-cols-2 {
+    grid-template-columns: none;
+  }
+
   .pt-40 {
     padding-top: 5rem !important;
   }
@@ -189,6 +201,9 @@ mt-4 {
   #joinus .mt-10 {
     margin-top: 1.25rem;
   }
+
+  .imgrf {display: none;}
+
 }
 
 @media screen and (max-width: 480px) {

@@ -9,8 +9,8 @@ const Front: FC = () => {
           id="hero_heading"
         >
           <img
-            src="images/landingpage/Logo_Light.svg"
-            alt="grizzlylogo"
+            src="images/networkstate/Logo_Light.svg"
+            alt="Grizzlython Solana"
             width={1100}
           />
           The Network State <br /> Dean&apos;s List
