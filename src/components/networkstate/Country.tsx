@@ -42,8 +42,8 @@ const Country: FC = () => {
           chartType="GeoChart"
           data={data}
           options={options}
-          width={"99%"}
-          height={"700px"}
+          width={"100%"}
+          height={"800px"}
           />
         </div>
       </div>
