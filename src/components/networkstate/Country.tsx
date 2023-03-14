@@ -18,6 +18,12 @@ export const data = [
   ["United Kingdom", 5.51],
   ["Brazil", 1489],
   ["Australia", 235.46],
+  ["Lebanon", 0],
+  ["Sierra Leone", 0],
+  ["Indonesia", 0],
+  ["Japan", 0],
+  ["Argentina", 0],
+  ["Portugal", 0],
 ];
 
 export const options = {
