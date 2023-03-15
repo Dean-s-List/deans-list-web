@@ -73,7 +73,7 @@ mt-4 {
   margin: 0 auto;
 }
 
-.dropdown ul.dropdown-content li{
+.dropdown ul.dropdown-content li button{
   text-align: left;
 }
 
