@@ -69,6 +69,10 @@ mt-4 {
   margin-top: 1.4rem;
 }
 
+#govern{
+  margin: 0 auto;
+}
+
 .Footer_dl {
   font-size: 1rem;
   padding: 1.5rem 0 3rem 0;
@@ -268,10 +272,6 @@ mt-4 {
 
   .imgrf {display: none;}
 
-  #govern{
-    margin-left: 4rem;
-  }
-
   #network_heading,
   #state_heading,
   #earn_heading,
@@ -304,7 +304,6 @@ mt-4 {
   }
 
   #govern{
-    margin-left: 0;
     width: 96%;
   }
 
@@ -460,10 +459,6 @@ mt-4 {
 @media screen and (min-width: 1500px) {
   .steps {
     display: inline-flex;
-  }
-
-  #govern{
-    margin-left: 6rem;
   }
 
   #manifest img{
