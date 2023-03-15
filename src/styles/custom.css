@@ -136,6 +136,13 @@ mt-4 {
 #network .nwrk{
   margin-right: 3rem;
 }
+
+#network_heading,
+#state_heading,
+#earn_heading,
+#governance_heading {
+  font-size: 3.2rem;
+}
 }
 
 @media screen and (max-width: 1024px) {
@@ -261,6 +268,17 @@ mt-4 {
 
   .imgrf {display: none;}
 
+  #govern{
+    margin-left: 4rem;
+  }
+
+  #network_heading,
+  #state_heading,
+  #earn_heading,
+  #governance_heading {
+    font-size: 2.7rem;
+  }
+
 }
 
 @media screen and (max-width: 820px) {
@@ -270,7 +288,8 @@ mt-4 {
 
   #network_heading,
   #state_heading,
-  #earn_heading{
+  #earn_heading,
+  #governance_heading {
     font-size: 2.5rem;
   }
   
@@ -282,6 +301,11 @@ mt-4 {
   #network .nwrk{
     margin-left: 4rem;
     margin-right: 4rem;
+  }
+
+  #govern{
+    margin-left: 0;
+    width: 96%;
   }
 
 }
@@ -426,12 +450,28 @@ mt-4 {
     margin: 0 auto;
     text-align: center;
   }
+
+  #govern{
+    width: 100%;
+  }
+
 }
 
 @media screen and (min-width: 1500px) {
   .steps {
     display: inline-flex;
   }
+
+  #govern{
+    margin-left: 6rem;
+  }
+
+  #manifest img{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
 }
 
 @media screen and (min-width: 821px) and (max-width: 1499px) {
