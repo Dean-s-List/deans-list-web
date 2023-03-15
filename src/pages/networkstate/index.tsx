@@ -5,11 +5,11 @@ import { useEffect, useRef, useState } from "react";
 import type { NextPage } from "next";
 // Pages
 import Front from "@/components/networkstate/Front";
+import Manifesto from "@/components/networkstate/Manifesto";
 import Track from "@/components/networkstate/Track";
 import Country from "@/components/networkstate/Country";
 import OurData from "@/components/networkstate/OurData";
 import Ourstate from "@/components/networkstate/Ourstate";
-import Opportunities from "@/components/networkstate/Opportunities";
 import Politics from "@/components/networkstate/Politics";
 import Footer from "@/components/home/Footer";
 
@@ -73,11 +73,11 @@ const Networkstate: NextPage = () => {
         ) : (
           <>
             <Front />
+            <Manifesto />
             <Track />
             <Ourstate />
             <OurData />
             <Country />
-            <Opportunities/>
             <Politics/>
             <Footer />
           </>
