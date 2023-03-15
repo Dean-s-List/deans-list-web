@@ -42,6 +42,21 @@ iframe{
   );
 }
 
+.bg-dlgrad {
+  background: radial-gradient(
+    circle,
+    rgba(234, 150, 255, 1) 0%,
+    rgba(186, 158, 255, 1) 35%,
+    rgba(186, 213, 255, 1) 70%,
+    rgba(200, 240, 255, 1) 100%
+  );
+}
+
+.bg-dlcc{
+  background-color: #d6c6ff
+;
+}
+
 .clay{
   color: #dad5c3;
 }

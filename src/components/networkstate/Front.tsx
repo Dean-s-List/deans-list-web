@@ -1,4 +1,5 @@
 import type { FC } from "react";
+import Link from 'next/link';
 
 const Front: FC = () => {
   return (
@@ -14,6 +15,21 @@ const Front: FC = () => {
             width={1100}
           />
           The Network State <br /> Dean&apos;s List
+        </div>
+        <div
+          className="mb-24 text-center">
+              <Link
+                rel="noopener noreferrer"
+                target="_blank"
+                className="lun"
+                href="/files/Deanlist_Declaration_Network_State.pdf"
+              >
+          <img
+            src="images/networkstate/deans-list-declaration.png"
+            alt="Dean's List Network State Declaration"
+            width={1100}
+          />
+          </Link>
         </div>
       </div>
     </div>
