@@ -2,39 +2,38 @@
 
 **Dean’s List  - serviceDAO website Spec**
 
-**Overview:** As part of our Solana Foundation Grant, we are building a dedicated landing page/portal for members and clients to join and work with Dean’s List 
+**Overview:** The website was first started as part a Solana Foundation Grant. On top of this foundation we are building a dedicated landing page/portal for citizens and clients to join and work with the Dean’s List Network State. 
 
-**The goal of creating this is to**
-- Make it easier for a new member to join the serviceDAO
-- Make it easier for a client to engage the serviceDAO 
-- Showcase what we do in this serviceDAO
 
-**We are here to help daos get better and to that end can:**
-- Help other serviceDAOs spin up their own dedicated portal and create their own token
-- Integration with Realms for client processes and distribution
-- Merch shop options for DAOs
+**The website is designed to help:**
+- Facilitate new citizens to join our network state
+- Facilitate clients to engage with our network state
+- Showcase what we do in our network state
 
-**Requirements for the Portal**
 
-For New Clients:
+**Our Services:**
 
-Acquire the required DEAN or agreed token (established with the service agreement) and send it to the Dean's List treasury – best version is to swap from any token to DEAN, but enabling the basic swap is good for this phase. Current payment is 50 DEAN but is subject to change based on the requirements and scope of the project being reviewed. 
+We have 3 service verticals that are a unique amalgamation of our collective skill set & guide our product offerings with an aim to help improve the wider ecosystem. These are: 
 
+- Feedback 
+- Marketing
+- Advisory
+
+
+**Access Requirements For Clients**
+
+Till the time our dashboard goes live, clients may utilize our Web3 e-commerce store powered by Coinable to make a purchase & access our services. On a successful purchase, you will be contacted by One Of Us as regards to the next steps. 
+
+If there are any reasons that preclude us from accepting your business, then the payment will be refunded to the payment address that sent the tokens. No refunds will be given once a project has been started and work has begun.
+
+For the future, we are working towards having a self hosted platform as part of the access protocol to our dashboard that will enable customers to purchase one of our services through our website directly.
+
+**Access Requirements For Citizens**
+
+At the moment, The Dean's List Network State operates primarily through our Discord server. You may obtain citizenship & gain access to the server by:
+
+- Purchasing a $DEAN Token by swapping $GRAPE on Strata by visiting
 https://app.strataprotocol.com/swap/6LyW1iUpfTPiMxSLMpKCxeAqXDz7nuWCfCNnEaSmibZ1
+- Purchasing one of our NFTs on the secondary market or try your luck at one of our auctions. 
 
-Service agreement - The agreed amount and type of tokens needs to be deposited into the Treasury account on Realms. Ideally, this deposit also comes with some information similar to the existing bounty process we use on Strata (we could also use the Strata bounty code, if that is easier, but there is the issue that the deposit goes to the mint wallet and not Realms).
-
-If the project is not accepted by Dean's List then the payment will be refunded to the payment address that sent the tokens. No refunds will be given once a project has been started and work has begun.
-
-Information to request:
-- Name of Project
-- Logo of the project
-- Description of the project and feedback priorities
-
-
-For Dean's List Members:
-
-We are looking for likeminded and talented people that are passionate aboue adding value and making a difference. To gain access, you need to acquire 1 DEAN to access the Discord channels. Join in and share your experience with the growing community.
-
-
-
+For the future, we are working towards adding in automated and shift workflows to our dashboard utilizing the aforesaid methods of verification. We are also exploring the possibility of non-citizens participating in our GDP as well and other opportunities to improve our state in meaningful ways. 
