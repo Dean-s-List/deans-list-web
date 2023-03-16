@@ -4,7 +4,7 @@ import type { FC } from "react";
 const OurData: FC = () => {
   const data = {
     revenue: 41411,
-    population: 68,
+    population: 69,
   };
 
   return (
