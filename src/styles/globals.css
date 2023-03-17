@@ -23,3 +23,12 @@ html,
 body {
   background-color: black;
 }
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar.colorChange {
+  background-color: #111;
+  transition: background-color 0.2s ease;
+}
