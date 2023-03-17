@@ -1,14 +1,37 @@
 // Next
 import Link from "next/link";
 import Image from "next/image";
+// React
+import React, { useState, useEffect } from "react";
 // Types
 import type { FC } from "react";
 
 export const NavBar: FC = () => {
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 67.5) {
+      setColorchange(true);
+    } else {
+      setColorchange(false);
+    }
+  };
+  useEffect(function onFirstMount() {
+    function onScroll() {
+      changeNavbarColor();
+    }
+
+    window.addEventListener("scroll", onScroll);
+  }, []);
+
   return (
     <div>
       {/* NavBar / Header */}
-      <div className="navbar fixed z-[999] flex h-[87.5px] flex-row border-white text-[21px] text-neutral-content shadow-lg md:pb-3">
+      <div
+        className={`fixed z-[999] flex h-[87.5px] flex-row border-white text-[21px] text-neutral-content md:pb-3 ${
+          colorChange ? "colorChange navbar" : "navbar"
+        }`}
+        id="navbar"
+      >
         <div className="z-2 navbar-start flex">
           <div className="flex-none lg:hidden">
             <div className="dropdown">
