@@ -22,7 +22,7 @@ const Joinus = () => {
       </Link><br/><br/>
 
 
-      The Dean&apos;s List DAO is looking for talented and passionate individuals to become one of us. <Link href="https://crew3.xyz/c/dldao/invite/mOPfotU3wcvr0euHSemO">Join us on Crew3</Link>, complete some quests and show us what you are made of. <br />{" "}
+      The Dean&apos;s List DAO is looking for talented and passionate individuals to become one of us. If you have what it takes to become one of us then <Link href="/joindl">join us</Link> today. <br />{" "}
       </div>
       <div className="text-left font-space text-xl mw50 mb-12">
         <div className='tableauPlaceholder' id='viz1678731768375' style={{position: 'relative'}}>
