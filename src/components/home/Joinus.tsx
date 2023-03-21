@@ -9,10 +9,19 @@ const Joinus = () => {
         </div>
       <div className="mt-10 text-left font-space text-xl mw50 mb-24">
 
-      <strong>CITIZEN UPDATE:</strong> On Tuesday 21st of March, 2023 at 12:00 UTC a Governance Snapshot will take place at the Realms Dean’s List DAO. 
-      The snapshot will determine the distribution of our new interim governance token.<br/><br/>
-      Make sure you have your $DEAN deposited in the Dean&apos;s List Realms DAO before the snapshot time to qualify 
-      for the new token distribution. <Link
+      <strong>CITIZEN UPDATE: </strong> 
+      
+      The Realms snapshot was completed on Tuesday 21st of March, 2023 at 12:00 UTC. Now its time to send your DEAN tokens to the DAO&apos;s Squads Wallet.<br/><br/>
+
+      You can make the deposit <Link
+                rel="noopener noreferrer"
+                target="_blank"
+                className="lun"
+                href="https://v3.squads.so/vault/assets/MnNXQ0ZpdWdCeThuWUw3OXhqUVEyNk1TQnZYQXo4WDRFSmEyQXJDaExSb2g="
+              >here</Link> or send directly to FAEYozsZVkxhXwG1HnVJn58Ks3dff31zjtA8b3KezFJ6<br/><br/>
+
+      Make sure to only send <strong>WHOLE NUMBERS</strong>. Any decimal amounts should be unwrapped by yourself on Strata. You have by 23/3/2023 to deposit your DEAN!<br/><br/>
+      <Link
                 rel="noopener noreferrer"
                 target="_blank"
                 className="lun"
@@ -20,7 +29,6 @@ const Joinus = () => {
               >
       Read the full announcement
       </Link><br/><br/>
-
 
       The Dean&apos;s List DAO is looking for talented and passionate individuals to become one of us. If you have what it takes to become one of us then <Link href="/joindl">join us</Link> today. <br />{" "}
       </div>
