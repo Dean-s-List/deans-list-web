@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from 'next/image';
 
 const Customers = () => {
   const customers = [
@@ -50,7 +51,7 @@ const Customers = () => {
               target="_blank"
               href={`https://soladex.io/project/${customer.soladex}/`}
             >
-              <img
+              <Image
                 src={customer.image}
                 alt={customer.soladex}
                 className="h-24 rounded-full border-4 border-white"

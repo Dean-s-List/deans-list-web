@@ -16,7 +16,7 @@ const Hero: FC = () => {
           Feedback from <br />
           web3 power users
         </div>
-        <Link href="https://coinablepay.com/store/deans-list">
+        <Link href="https://coinablepay.com/@deanslist">
           <button className="group flex h-14 w-max items-center justify-center gap-x-2 rounded bg-white pl-8 pr-7 font-space text-lg font-medium text-black">
             Get Started
             <svg

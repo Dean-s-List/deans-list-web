@@ -56,7 +56,7 @@ export const NavBar: FC = () => {
               >
                 <li className="list-none">
                   <Link
-                    href="https://coinablepay.com/store/deans-list"
+                    href="https://coinablepay.com/@deanslist"
                     target={"_blank"}
                     rel="noreferrer"
                   >
@@ -114,7 +114,7 @@ export const NavBar: FC = () => {
             </Link>
           </div>
           <Link
-            href="https://coinablepay.com/store/deans-list"
+            href="https://coinablepay.com/@deanslist"
             target={"_blank"}
             rel="noreferrer"
             className="hidden md:flex"
