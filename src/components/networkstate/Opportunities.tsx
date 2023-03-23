@@ -132,7 +132,7 @@ const Opportunities: FC = () => {
               collaboration within a DAO structure.
             </p>
             <Link
-              href="https://coinablepay.com/store/deans-list"
+              href="https://coinablepay.com/@deanslist"
               className="mt-3 inline-flex items-center font-bold text-black  hover:text-blue-600"
             >
               Buy Now

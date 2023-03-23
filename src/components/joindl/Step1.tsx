@@ -21,7 +21,7 @@ const Step1: FC = () => {
             The Dean&apos;s List DAO operates and communicates with Discord.
           </h2>
           <p className="pt-6 text-[1.5rem]">
-            To join our Discord server, pick from one of the three options
+            To join our Discord server, pick from one of the two options
             below:
           </p>
           <ul className="list-disc">
@@ -37,23 +37,12 @@ const Step1: FC = () => {
               </Link> or try your luck at one of our auctions.
             </li>
             <li>
-              Purchase at least one $DEAN Token by swapping $GRAPE on{" "}
-              <Link
-                rel="noopener noreferrer"
-                target="_blank"
-                className="lun"
-                href="https://app.strataprotocol.com/swap/6LyW1iUpfTPiMxSLMpKCxeAqXDz7nuWCfCNnEaSmibZ1"
-              >
-                Strata
-              </Link>
-            </li>
-            <li>
               Become a customer by purchasing one of our packages through the{" "}
               <Link
                 rel="noopener noreferrer"
                 target="_blank"
                 className="lun"
-                href="https://coinablepay.com/store/deans-list"
+                href="https://coinablepay.com/@deanslist"
               >
                 Coinable store
               </Link>
