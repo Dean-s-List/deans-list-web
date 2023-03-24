@@ -24,7 +24,7 @@ const Services: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Become One of Us | Dean&apos;s List</title>
+        <title>Services and Packages | Dean&apos;s List</title>
 
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
@@ -44,23 +44,23 @@ const Services: NextPage = () => {
         <meta name="author" content="Dean's List DAO" />
         <meta
           name="description"
-          content="Learn how to join a Service DAO for Web3 power users making every project we touch better."
+          content="Discover the services that Dean's List offers its clients to make them better."
         />
         <meta
           property="og:description"
-          content="Learn how to join a Service DAO for Web3 power users making every project we touch better."
+          content="Discover the services that Dean's List offers its clients to make them better."
         />
-        <meta property="og:title" content="Dean's List - Become One of Us" />
+        <meta property="og:title" content="Dean's List - Services" />
         <meta property="og:image" content="/images/logo.png" />
         <meta property="og:url" content="" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@deanslistDAO" />
-        <meta name="twitter:title" content="Dean's List - Become One of Us" />
+        <meta name="twitter:title" content="Dean's List - Services" />
         <meta name="twitter:image" content="/images/logo.png" />
         <meta name="twitter:site" content="@deanslistDAO" />
         <meta
           name="twitter:description"
-          content="Learn how to join a Service DAO for Web3 power users making every project we touch better."
+          content="Discover the services that Dean's List offers its clients to make them better."
         />
       </Head>
 
