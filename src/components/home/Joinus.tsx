@@ -11,16 +11,9 @@ const Joinus = () => {
 
       <strong>CITIZEN UPDATE: </strong> 
       
-      The Realms snapshot was completed on Tuesday 21st of March, 2023 at 12:00 UTC. Now its time to send your DEAN tokens to the DAO&apos;s Squads Wallet.<br/><br/>
+      The minting of the interim token has been completed and the new token will be sent to all participants as the next step.<br/><br/>
 
-      You can make the deposit <Link
-                rel="noopener noreferrer"
-                target="_blank"
-                className="lun"
-                href="https://v3.squads.so/vault/assets/MnNXQ0ZpdWdCeThuWUw3OXhqUVEyNk1TQnZYQXo4WDRFSmEyQXJDaExSb2g="
-              >here</Link> or send directly to FAEYozsZVkxhXwG1HnVJn58Ks3dff31zjtA8b3KezFJ6<br/><br/>
-
-      Make sure to only send <strong>WHOLE NUMBERS</strong>. Any decimal amounts should be unwrapped by yourself on Strata. You have by 23/3/2023 to deposit your DEAN!<br/><br/>
+      We are now in Phase 3 as outlined in our announcement.<br/><br/>
       <Link
                 rel="noopener noreferrer"
                 target="_blank"
