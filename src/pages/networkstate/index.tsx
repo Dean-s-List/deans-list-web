@@ -78,7 +78,6 @@ const Networkstate: NextPage = () => {
             <Ourstate />
             <OurData />
             <Country />
-            <Politics/>
             <Footer />
           </>
         )}
