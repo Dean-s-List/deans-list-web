@@ -29,7 +29,7 @@ const Step2: FC = () => {
         </p>
         <p className="pt-6 text-[1.5rem]">
           Head over to our store to explore the service offerings and pick the one that will help the most.<br /><br /> 
-          If you have questions contacts us through <Link href="mailto:support@deanslist.services" scroll={false}>e-mail
+          If you have questions, contact us via <Link href="mailto:support@deanslist.services" scroll={false}>e-mail
           </Link> and we will be happy to help. 
           </p>
         </div>
