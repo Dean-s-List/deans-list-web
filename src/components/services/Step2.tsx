@@ -23,7 +23,7 @@ const Step2: FC = () => {
                 rel="noopener noreferrer"
                 target="_blank"
                 className="lun"
-                href="https://coinablepay.com/@deanslist/ozWxnDy7G7B2Mxw2LLia72"
+                href="https://coinablepay.com/@deanslist"
               >
                 Coinable store</Link>. 
         </p>
@@ -37,7 +37,7 @@ const Step2: FC = () => {
                 rel="noopener noreferrer"
                 target="_blank"
                 className="lun"
-                href="https://coinablepay.com/@deanslist/ozWxnDy7G7B2Mxw2LLia72"
+                href="https://coinablepay.com/@deanslist"
               ><button className="group steps flex h-14 w-max items-center justify-center gap-x-2 rounded bg-white pl-8 pr-7 font-space text-lg font-medium text-black">
             Visit the Coinable store
             <svg
