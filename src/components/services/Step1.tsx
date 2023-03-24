@@ -6,7 +6,7 @@ import type { FC } from "react";
 const Step1: FC = () => {
   return (
     <div
-      className="relative flex h-screen w-full flex-col bg-[url('/images/idea.jpg')] bg-cover bg-no-repeat"
+      className="relative flex h-screen w-full flex-col bg-[url('/images/hands-key.jpg')] bg-cover bg-no-repeat"
       id="step1"
     >
       <div className="mb-12 mt-12 flex h-full flex-col items-center justify-center">
@@ -14,55 +14,30 @@ const Step1: FC = () => {
           className="mb-12 mt-12 text-center font-tt text-[4rem] leading-[1]"
           id="step1_heading"
         >
-          Step 1: Join Our Discord <br />
+          Our Service Verticals <br />
         </div>
         <div className="lh-spc mb-12 ml-48 mr-48 text-left font-tt text-[1.5rem]">
           <h2 className="text-[1.5rem]">
-            The Dean&apos;s List DAO operates and communicates with Discord.
+            We have 3 service verticals that are a unique amalgamation of our collective skills sets all geared towards making you better.
           </h2>
-          <p className="pt-6 text-[1.5rem]">
-            To join our Discord server, pick from one of the three options
-            below:
-          </p>
           <ul className="list-disc">
             <li>
-              Purchase one of our NFTs on the {" "}
-              <Link
-                rel="noopener noreferrer"
-                target="_blank"
-                className="lun"
-                href="https://www.tensor.trade/trade/deanslist"
-              >
-                secondary market
-              </Link> or try your luck at one of our auctions.
+            <strong>Get Better</strong> wih our signature <Link 
+            href="https://coinablepay.com/@deanslist" scroll={false}
+            >feedback
+            </Link> service. It provides in-depth analysis on how you can enhance user experience, weed out inefficiencies & galvanize your community. 
             </li>
             <li>
-              Purchase a membership on {" "}
-              <Link
-                rel="noopener noreferrer"
-                target="_blank"
-                className="lun"
-                href="https://coinablepay.com/@deanslist/ozWxnDy7G7B2Mxw2LLia72"
-              >
-                Coinable
-              </Link>
+            <strong>Grow Better</strong> from our exclusive AMAs & gameplay review, search engine optimisation & promotion. We have your marketing, visibility & outreach goals covered. 
             </li>
             <li>
-              Become a customer by purchasing one of our packages through the{" "}
-              <Link
-                rel="noopener noreferrer"
-                target="_blank"
-                className="lun"
-                href="https://coinablepay.com/@deanslist"
-              >
-                Coinable store
-              </Link>
+            <strong>Strategize Better</strong> with our sage advice. We answer the questions and help you find the best solutions to drive your project forward.  
             </li>
           </ul>
         </div>
         <Link href="#step2" scroll={false}>
           <button className="group steps flex h-14 w-max items-center justify-center gap-x-2 rounded bg-white pl-8 pr-7 font-space text-lg font-medium text-black">
-            Proceed to Step 2
+            Get better today
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

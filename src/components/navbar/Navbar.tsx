@@ -55,11 +55,7 @@ export const NavBar: FC = () => {
                 className="dropdown-content rounded-box menu-compact mt-3 w-52 bg-black p-2 shadow"
               >
                 <li className="list-none">
-                  <Link
-                    href="https://coinablepay.com/@deanslist"
-                    target={"_blank"}
-                    rel="noreferrer"
-                  >
+                  <Link href="/services">
                     <div className="btn-ghost rounded-btn btn-md btn">
                       SERVICES
                     </div>
@@ -113,11 +109,9 @@ export const NavBar: FC = () => {
               />
             </Link>
           </div>
-          <Link
-            href="https://coinablepay.com/@deanslist"
-            target={"_blank"}
-            rel="noreferrer"
-            className="hidden md:flex"
+          <Link 
+           href="/services"
+           className="hidden md:flex"
           >
             <div className="btn-ghost rounded-btn btn-md btn">SERVICES</div>
           </Link>
