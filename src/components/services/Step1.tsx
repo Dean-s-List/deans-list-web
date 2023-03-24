@@ -28,7 +28,7 @@ const Step1: FC = () => {
             </Link> service. It provides in-depth analysis on how you can enhance user experience, weed out inefficiencies & galvanize your community. 
             </li>
             <li>
-            <strong>Grow Better</strong> from our exclusive AMA&amp;s & gameplay review, search engine optimisation & promotion. We have your marketing, visibility & outreach goals covered. 
+            <strong>Grow Better</strong> from our exclusive AMAs & gameplay review, search engine optimisation & promotion. We have your marketing, visibility & outreach goals covered. 
             </li>
             <li>
             <strong>Strategize Better</strong> with our sage advice. We answer the questions and help you find the best solutions to drive your project forward.  
