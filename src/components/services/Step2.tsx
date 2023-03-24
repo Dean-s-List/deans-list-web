@@ -14,7 +14,7 @@ const Step2: FC = () => {
           className="mb-12 mt-12 text-center font-tt text-[4rem] leading-[1]"
           id="step2_heading"
         >
-           Get our help today
+           Get our help today 
           <br />
         </div>
         <div className="lh-spc lh-spc mb-12 ml-48 mr-48 text-left font-tt text-[1.5rem]">

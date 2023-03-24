@@ -37,7 +37,7 @@ const Step1: FC = () => {
         </div>
         <Link href="#step2" scroll={false}>
           <button className="group steps flex h-14 w-max items-center justify-center gap-x-2 rounded bg-white pl-8 pr-7 font-space text-lg font-medium text-black">
-            Get help from Dean&apos;s List
+            Get better today
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
