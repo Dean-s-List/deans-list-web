@@ -29,6 +29,6 @@ body {
 }
 
 .navbar.colorChange {
-  background-color: #111;
+  background-color:rgba(17, 17, 17, 0.5);
   transition: background-color 0.2s ease;
 }
