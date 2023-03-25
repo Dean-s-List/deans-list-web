@@ -23,7 +23,7 @@ const Hero: FC = () => {
           If you&apos;re looking to get better, grow better and strategize better, we can help. 
           </p>
         </div>
-        <Link href="#step1" scroll={false}>
+        <Link href="#wearedean" scroll={false}>
           <button className="group flex h-14 w-max items-center justify-center gap-x-2 rounded bg-white pl-8 pr-7 font-space text-lg font-medium text-black">
             Learn more
             <svg

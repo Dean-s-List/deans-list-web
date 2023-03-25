@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import Hero from "@/components/services/Hero";
 import Step1 from "@/components/services/Step1";
 import Step2 from "@/components/services/Step2";
+import VideoDean from "@/components/services/Video";
 import Footer from "@/components/home/Footer";
 // import Spinner from "@/components/spinner/Spinner";
 // Types
@@ -70,6 +71,7 @@ const Services: NextPage = () => {
         ) : (
           <>
             <Hero />
+            <VideoDean />
             <Step1 />
             <Step2 />
             <Footer />
