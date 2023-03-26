@@ -9,7 +9,7 @@ const Testimonials = () => {
       <div className="text-left font-space text-xl mt-10 mw50">
       The Dean&apos;s List feedback platform provides a reliable and trustworthy space for you to receive valuable insights and suggestions from a diverse community of experts and users. 
       Whether you are a developer, entrepreneur, or simply looking to improve your project, the Dean&apos;s List provides the feedback you need to succeed.<br/><br/>
-      <h3><Link href="https://coinablepay.com/store/deans-list">Get started today</Link> and bring your project to the next level with the Dean&apos;s List!</h3>
+      <h3><Link href="/services">Get started today</Link> and bring your project to the next level with the Dean&apos;s List!</h3>
       </div>
 
       <div className="vwm lh-spc mt-10 mb-20">

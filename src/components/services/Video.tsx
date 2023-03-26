@@ -1,5 +1,6 @@
 // Types
 import type { FC } from "react";
+import { MediaOutlet, MediaPlayer } from '@vidstack/react';
 
 const VideoDean: FC = () => {
 
@@ -9,13 +10,14 @@ const VideoDean: FC = () => {
       id="wearedean"
     >
      <div className="mb-12 mt-12 flex h-full flex-col items-center justify-center">
-        <video width="80%" height="500" playsInline controls
-        >
-          <source
-            src="/videos/we_are_deanslist.mp4"
-            type="video/mp4"
-          />
-        </video>
+      <MediaPlayer
+       src="/videos/we_are_deanslist.mp4"
+       poster="/images/we_are_building.png"
+       controls
+       >
+       {/* ^ remove `controls` attribute if you're designing a custom UI */}
+       <MediaOutlet />
+      </MediaPlayer>
      </div>
     </div>
   );
