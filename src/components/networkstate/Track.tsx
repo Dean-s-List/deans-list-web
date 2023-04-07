@@ -7,7 +7,7 @@ const Track: FC = () => {
         className="clay col-span-2 text-center font-tt text-[4rem] leading-[1]"
         id="network_heading"
       >
-        DAO Track
+        Building a better today
       </div>
       <div className="nwrk lh-spc lh-spc mb-12 ml-48 mr-24 text-left font-tt text-[1.5rem]">
         <p className="pt-6 text-[1.5rem]">
