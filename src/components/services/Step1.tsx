@@ -22,7 +22,7 @@ const Step1: FC = () => {
           </h2>
           <ul className="list-disc">
             <li>
-            <strong>Get Better</strong> wih our signature <Link 
+            <strong>Get Better</strong> with our signature <Link 
             href="https://coinablepay.com/@deanslist" scroll={false}
             >feedback
             </Link> service. It provides in-depth analysis on how you can enhance user experience, weed out inefficiencies & galvanize your community. 
