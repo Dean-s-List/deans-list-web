@@ -21,11 +21,10 @@ const Step3: FC = () => {
         </div>
         <div className="lh-spc lh-spc mb-12 ml-48 mr-48 text-left font-tt text-[1.5rem]">
           <h2 className="text-[1.5rem]">
-            Upon successful onboarding, you will be assigned the &quot;One of
-            Us&quot; role.
+            Upon successful onboarding, you will be assigned the &quot;Citizen&quot; role.
           </h2>
           <p className="pt-6 text-[1.5rem]">
-            This allows you unfiltered access to the Discord server and you may:
+            This allows you access to the Discord server and you may:
           </p>
           <ul className="list-disc">
             <li>

@@ -3,10 +3,10 @@ import type { FC } from "react";
 
 const OurData: FC = () => {
   const data = {
-    revenue: 41461,
-    population: 69,
-    total_payouts: 27850.56,
-    members: 39
+    revenue: 46625.49,
+    population: 49,
+    total_payouts: 37202.09,
+    members: 49
   };
 
   return (
