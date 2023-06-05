@@ -5,7 +5,7 @@ const OurData: FC = () => {
   const data = {
     revenue: 46625.49,
     population: 49,
-    total_payouts: 37202.09,
+    total_payouts: 42116,
     members: 49
   };
 
