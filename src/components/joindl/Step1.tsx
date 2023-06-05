@@ -21,7 +21,7 @@ const Step1: FC = () => {
             The Dean&apos;s List DAO operates and communicates with Discord.
           </h2>
           <p className="pt-6 text-[1.5rem]">
-            To join our Discord server, pick from one of the three options
+            To join our Discord server, pick from one of the two options
             below:
           </p>
           <ul className="list-disc">
@@ -35,17 +35,6 @@ const Step1: FC = () => {
               >
                 secondary market
               </Link> or try your luck at one of our auctions.
-            </li>
-            <li>
-              Purchase a membership on {" "}
-              <Link
-                rel="noopener noreferrer"
-                target="_blank"
-                className="lun"
-                href="https://coinablepay.com/@deanslist/ozWxnDy7G7B2Mxw2LLia72"
-              >
-                Coinable
-              </Link>
             </li>
             <li>
               Become a customer by purchasing one of our packages through the{" "}

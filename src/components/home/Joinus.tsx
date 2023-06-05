@@ -11,17 +11,7 @@ const Joinus = () => {
 
       <strong>CITIZEN UPDATE: </strong> 
       
-      The minting of the interim token has been completed and the new token will be sent to all participants as the next step.<br/><br/>
-
-      We are now in Phase 3 as outlined in our announcement.<br/><br/>
-      <Link
-                rel="noopener noreferrer"
-                target="_blank"
-                className="lun"
-                href="/files/Token_Announcement-March_19_2023.pdf"
-              >
-      Read the full announcement
-      </Link><br/><br/>
+      The new phase of the token is underway with calculations on distribution based on 4 main criteria. If you are a citizen inquire on Discord about the current of the distribution.<br/><br/>
 
       The Dean&apos;s List DAO is looking for talented and passionate individuals to become one of us. If you have what it takes to become one of us then <Link href="/joindl">join us</Link> today. <br />{" "}
       </div>
