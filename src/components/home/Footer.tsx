@@ -63,7 +63,7 @@ const Footer = () => {
             aria-label="GitHub"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/Deans-List/"
+            href="https://github.com/Dean-s-List"
           >
             <svg 
               width="32" 
